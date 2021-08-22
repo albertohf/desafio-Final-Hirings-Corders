@@ -11,35 +11,111 @@
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "footer-spacer",
-      "social-networks"
+      "flex-layout.col#person",
+      "flex-layout.col#events",
+      "flex-layout.col#store",
+      "flex-layout.col#whats",
+      "footer-spacer"
+
     ],
     "props": {
-      "blockClass": "menu-row",
-      "paddingTop": 6,
-      "paddingBottom": 3
+      "blockClass": "menu-row"
     }
   },
-
-  "social-networks": {
+  "flex-layout.col#person":{
+    "props":{
+      "horizontalAlign": "center",
+      "blockClass": "footer-col"
+    },
+    "children":[
+      "logo#person",
+      "rich-text#person"
+    ]
+  },
+  "rich-text#person": {
     "props": {
-      "socialNetworks": [
-        {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
-        }
-      ]
+      "blockClass": "footer-text",
+      "text": "ENTRAR"
+    }
+  },
+  "flex-layout.col#events":{
+    "props":{
+      "horizontalAlign": "center",
+      "blockClass": "footer-col"
+    },
+    "children":[
+      "logo#events",
+      "rich-text#events"
+    ]
+  },
+  "rich-text#events": {
+    "props": {
+      "blockClass": "footer-text",
+      "text": "DESAFIOS"
+    }
+  },
+  "flex-layout.col#store":{
+    "props":{
+      "horizontalAlign": "center",
+      "blockClass": "footer-col"
+    },
+    "children":[
+      "logo#store",
+      "rich-text#store"
+    ]
+  },
+  "rich-text#store": {
+    "props": {
+      "blockClass": "footer-text",
+      "text": "LOJA"
+    }
+  },
+  "flex-layout.col#whats":{
+    "props":{
+      "horizontalAlign": "center",
+      "blockClass": "footer-col"
+    },
+    "children":[
+      "logo#whats",
+      "rich-text#whats"
+    ]
+  },
+  "rich-text#whats": {
+    "props": {
+      "blockClass": "footer-text",
+      "text": "WHATSAPP"
+    }
+  },
+  "logo#person": {
+    "props": {
+      "title": "person",
+      "href": "/",
+      "url": "assets/baseline_person_black_24dp.png",
+      "width": "30"
+    }
+  },
+  "logo#events": {
+    "props": {
+      "title": "events",
+      "href": "/",
+      "url": "assets/baseline_emoji_events_black_24dp.png",
+      "width": "30"
+    }
+  },
+  "logo#store": {
+    "props": {
+      "title": "store",
+      "href": "/",
+      "url": "assets/baseline_local_grocery_store_black_24dp.png",
+      "width": "30"
+    }
+  },
+  "logo#whats": {
+    "props": {
+      "title": "whatsapp",
+      "href": "/",
+      "url": "assets/baseline_whatsapp_black_24dp.png",
+      "width": "30"
     }
   }
-}
+ }
