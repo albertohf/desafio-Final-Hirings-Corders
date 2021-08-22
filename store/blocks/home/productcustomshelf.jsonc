@@ -1,0 +1,35 @@
+{
+  "product-summary.shelf#customlist": {
+  "children": [
+    "product-summary-name",
+    // "product-images#custom",
+    "stack-layout#prodsum",
+    "product-summary-space",
+    "product-list-price#summary",
+    "flex-layout.row#selling-price-savings",
+    "product-installments#summary",
+    "add-to-cart-button#custombutton"
+  ]
+},
+"add-to-cart-button#custombutton":{
+  "props":{
+    "blockClass":"buttoncustom"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+// "product-images#custom": {
+//   "props": {
+//     "showNavigationArrows": true,
+//     "blockClass":"homelistshelf"
+//   }
+// }
+}

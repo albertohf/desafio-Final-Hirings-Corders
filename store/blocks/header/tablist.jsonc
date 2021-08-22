@@ -1,0 +1,213 @@
+{
+  "tab-layout#Headermenu": {
+    "props":{
+      "defaultActiveTabId": "zero",
+      "blockClass":"headerbuttons"
+    },
+    "children": [
+      "tab-list",
+      "tab-content"
+    ]
+  },
+  "tab-list": {
+    "props":{
+      "blockClass":"headerbuttons"
+    },
+    "children": [
+      "tab-list.item#1",
+      "tab-list.item#2",
+      "tab-list.item#3",
+      "tab-list.item#4",
+      "tab-list.item#5",
+      "tab-list.item#6",
+      "tab-list.item#7",
+      "tab-list.item#8",
+      "tab-list.item#9",
+      "tab-list.item#10"
+      ]
+  },
+  "tab-content": {
+    "props":{
+      "blockClass":"headerbuttons"
+    },
+    "children": [
+      "tab-content.item#1",
+      "tab-content.item#2",
+      "tab-content.item#3",
+      "tab-content.item#4",
+      "tab-content.item#5",
+      "tab-content.item#6",
+      "tab-content.item#7",
+      "tab-content.item#8",
+      "tab-content.item#9",
+      "tab-content.item#10"
+      ]
+  },
+  "tab-list.item#00": {
+    "props": {
+      "blockClass":"headerbuttons",
+      "defaultActiveTab": true,
+      "tabId": "zero",
+      "label": "Ver Menos"
+    }
+  },
+  "tab-list.item#1": {
+    "props": {
+      "tabId": "promocao",
+      "label": "PROMOÇÃO"
+    }
+  },
+  "tab-list.item#2": {
+    "props": {
+      "tabId": "corinthians",
+      "label": "CORINTHIANS"
+    }
+  },
+  "tab-list.item#3": {
+    "props": {
+      "tabId": "palmeiras",
+      "label": "PALMEIRAS"
+    }
+  },
+  "tab-list.item#4": {
+    "props": {
+      "tabId": "signos",
+      "label": "SIGNOS"
+    }
+  },
+  "tab-list.item#5": {
+    "props": {
+      "tabId": "divertidos",
+      "label": "DIVERTIDOS"
+    }
+  },
+  "tab-list.item#6": {
+    "props": {
+      "tabId": "maravilhas",
+      "label": "7 MARAVILHAS"
+    }
+  },
+  "tab-list.item#7": {
+    "props": {
+      "tabId": "guerreiros",
+      "label": "GUERREIROS"
+    }
+  },
+  "tab-list.item#8": {
+    "props": {
+      "tabId": "album1",
+      "label": "ÁLBUM 1"
+    }
+  },
+  "tab-list.item#9": {
+    "props": {
+      "tabId": "album2",
+      "label": "ÁLBUM 2"
+    }
+  },
+  "tab-list.item#10": {
+    "props": {
+      "tabId": "album3",
+      "label": "ÁLBUM 3"
+    }
+  },
+  "tab-content.item#1": {
+    "children": [
+      "flex-layout.row#customshelf",
+      "tab-list.item#00"
+    ],
+    "props": {
+      "blockClass":"headerbuttons",
+      "tabId": "promocao"
+    }
+  },
+  "tab-content.item#2": {
+    "children": [
+      "flex-layout.row#customshelf",
+      "tab-list.item#00"
+    ],
+    "props": {
+      "tabId": "corinthians"
+    }
+  },
+  "tab-content.item#3": {
+    "children": [
+      "flex-layout.row#customshelf",
+      "tab-list.item#00"
+    ],
+    "props": {
+      "tabId": "palmeiras"
+    }
+  },
+  "tab-content.item#4": {
+    "children": [
+      "flex-layout.row#customshelf",
+      "tab-list.item#00"
+    ],
+    "props": {
+      "tabId": "signos"
+    }
+  },
+  "tab-content.item#5": {
+    "children": [
+      "flex-layout.row#customshelf",
+      "tab-list.item#00"
+    ],
+    "props": {
+      "tabId": "divertidos"
+    }
+  },
+  "tab-content.item#6": {
+    "children": [
+      "flex-layout.row#customshelf",
+      "tab-list.item#00"
+    ],
+    "props": {
+      "tabId": "maravilhas"
+    }
+  },
+  "tab-content.item#7": {
+    "children": [
+      "flex-layout.row#customshelf",
+      "tab-list.item#00"
+    ],
+    "props": {
+      "tabId": "guerreiros"
+    }
+  },
+  "tab-content.item#8": {
+    "children": [
+      "flex-layout.row#customshelf",
+      "tab-list.item#00"
+    ],
+    "props": {
+      "tabId": "album1"
+    }
+  },
+  "tab-content.item#9": {
+    "children": [
+      "flex-layout.row#customshelf",
+      "tab-list.item#00"
+    ],
+    "props": {
+      "tabId": "album2"
+    }
+  },
+  "tab-content.item#10": {
+    "children": [
+      "flex-layout.row#customshelf",
+      "tab-list.item#00"
+    ],
+    "props": {
+      "tabId": "album3"
+    }
+  },
+  "tab-content.item#00": {
+    "children": [
+      
+    ],
+    "props": {
+      "tabId": "zero"
+    }
+  }
+}

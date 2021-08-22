@@ -1,0 +1,45 @@
+{
+  "search-result-layout.customQuery#customsearch":{
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#custom"]
+  },
+  "search-result-layout.desktop#custom":{
+    "children":[
+      "flex-layout.row#resultcustom"
+    ],
+    "props": {
+      "PreventRouteChange": true
+    }
+  },
+  "flex-layout.row#resultcustom":{
+    "children":[
+      "search-content#custom"
+    ]
+  },
+  "search-content#custom":{
+    "blocks":[
+      "gallery#custom",
+      "not-found"
+    ]
+  },
+  "gallery#custom": {
+    "props": {
+      "layouts": [
+        {
+          "name": "many",
+          "component": "ManyByLineSummary",
+          "itemsPerRow": {
+            "desktop": 2,
+            "mobile": 1
+          }
+        }
+      ],
+      "ManyByLineSummary": "product-summary.shelf#customlist"
+    }
+  }
+}

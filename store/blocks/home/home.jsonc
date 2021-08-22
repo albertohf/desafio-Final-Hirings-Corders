@@ -1,0 +1,69 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      "rich-text#shelf-title",
+      "search-result-layout.customQuery#customsearch"
+    ]
+  },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 300,
+      "images": [
+        {
+          "image": "assets/banner-wood.png",
+          "mobileImage": "assets/banner-wood.png",
+          "description": "BANNER WOOD"
+        },
+        {
+          "image": "assets/banner-warrior.png",
+          "mobileImage": "assets/banner-warrior.png",
+          "description": "BANNER WARRIOR"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "você está vendo provas de",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}
