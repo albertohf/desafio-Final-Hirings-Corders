@@ -24,9 +24,9 @@
 "product-summary.shelf#demo2": {
   "children": [
     "stack-layout#prodsum",
-    "product-summary-name",
-    "product-rating-inline",
-    "product-summary-price"
+    "product-summary-name"
+    // "product-rating-inline",
+    // "product-summary-price"
   ]
 }
 }

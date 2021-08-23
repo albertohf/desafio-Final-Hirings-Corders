@@ -5,9 +5,26 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop"
-      
+      // "modal-trigger#cadastro"
     ]
   },
+  //modal de cadastro
+  // "modal-trigger#cadastro": {
+  //   "children": [
+  //     "rich-text#cadastro",
+  //     "modal-layout#cadastro"
+  //   ]
+  // },
+  // "rich-text#cadastro": {
+  //   "props": {
+  //     "text": "Click me"
+  //   }
+  // },
+  // "modal-layout#cadastro": {
+  //   "children": [
+  //     "store.custom#contact-us"
+  //   ]
+  // },
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "footer-spacer",
@@ -89,7 +106,7 @@
   "logo#person": {
     "props": {
       "title": "person",
-      "href": "/cadastro",
+      "href": "/",
       "url": "assets/baseline_person_black_24dp.png",
       "width": "30"
     }
