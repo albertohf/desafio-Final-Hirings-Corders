@@ -89,7 +89,7 @@
   "logo#person": {
     "props": {
       "title": "person",
-      "href": "/",
+      "href": "/cadastro",
       "url": "assets/baseline_person_black_24dp.png",
       "width": "30"
     }
@@ -105,7 +105,7 @@
   "logo#store": {
     "props": {
       "title": "store",
-      "href": "/",
+      "href": "/upmedal?_q=upmedal&map=ft",
       "url": "assets/baseline_local_grocery_store_black_24dp.png",
       "width": "30"
     }
@@ -113,7 +113,7 @@
   "logo#whats": {
     "props": {
       "title": "whatsapp",
-      "href": "/",
+      "href": "https://api.whatsapp.com/send?phone=55999999999999&text=Entrar%20No%20Grupo%20de%20Loja",
       "url": "assets/baseline_whatsapp_black_24dp.png",
       "width": "30"
     }

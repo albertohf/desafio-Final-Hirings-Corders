@@ -113,5 +113,14 @@
 }
 :global(.vtex-button) {
   width: 200px;
-  margin-left: 50px;
+  margin: auto;
+}
+:global(.vtex-product-summary-2-x-nameWrapper) {
+  padding: 0 15px;
+}
+:global(.vtex-product-price-1-x-installments--summary) {
+  padding: 0 15px;
+}
+:global(.vtex-search-result-3-x-galleryItem--grid) :global(.vtex-button) {
+  width: 150px;
 }

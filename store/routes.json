@@ -1,6 +1,6 @@
 {
-  "store.custom#about-us": {
-    "path": "/about-us"
+  "store.custom#cadastro": {
+    "path": "/cadastro"
   },
   "store.custom#faq": {
     "path": "/faq"
